@@ -61,7 +61,7 @@ dependencies, and give you some pointers.
 On a machine running the Fedora Linux distribution, install the packages:
 
 #+begin_example
- $ sudo dnf install clang llvm
+ $ sudo dnf install clang llvm make
  $ sudo dnf install elfutils-libelf-devel perf
 #+end_example
 
@@ -70,7 +70,7 @@ On a machine running the Fedora Linux distribution, install the packages:
 On Debian and Ubuntu installations, install the dependencies like this:
 
 #+begin_example
- $ sudo apt install clang llvm libelf-dev
+ $ sudo apt install clang llvm make libelf-dev
 #+end_example
 
 To install the 'perf' utility, run this on Debian:
